@@ -199,7 +199,7 @@ let toCheckout = async () => {
   
   // If there are no items, alert the user and exit.
   if (dataToSave.length === 0) {
-    alert("請先加入商品再進行結帳！");
+    Swal.fire("請先加入商品再進行結帳！");
     return;
   }
   
@@ -243,13 +243,13 @@ let toCheckout = async () => {
     });
     
     // Because of no-cors mode, we cannot read the response.
-    alert("訂單送出成功！");
+    Swal.fire("訂單送出成功！");
     
     // Redirect to an order confirmation page, passing the orderId as a parameter.
     window.location.href = `https://the2dge.github.io/mrBean/order/?MerchantTradeNo=${orderId}`;
     
   } catch (error) {
     console.error("Checkout error:", error);
-    alert("訂單送出失敗，請稍後再試！");
+    Swal.fire("訂單送出失敗，請稍後再試！");
   }
 };
