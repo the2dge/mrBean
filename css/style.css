@@ -324,7 +324,7 @@ p {
 .cartTab {
   position: fixed;
   top: 0;
-  left: -630px; /* Adjust width as needed */
+  right: -330px; /* Adjust width as needed */
   width: 300px;
   height: 100%;
   background: #fff;
@@ -333,7 +333,7 @@ p {
   z-index: 10000;
   overflow-y: auto;
 }
-.cartTab.active{left: 0}
+.cartTab.active{right: 0}
 
 .cartTab .btn{
     display: grid;
