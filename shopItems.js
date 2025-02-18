@@ -246,7 +246,7 @@ let toCheckout = async () => {
     alert("訂單送出成功！");
     
     // Redirect to an order confirmation page, passing the orderId as a parameter.
-    window.location.href = `https://the2dge.github.io/clothshop/order/?MerchantTradeNo=${orderId}`;
+    window.location.href = `https://the2dge.github.io/mrBean/order/?MerchantTradeNo=${orderId}`;
     
   } catch (error) {
     console.error("Checkout error:", error);
