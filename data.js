@@ -1,0 +1,58 @@
+let shopItemsData = [
+  {
+    id: "001",
+    name: "開心果 (600g)",
+    price: 700,
+    desc: "開心果還富含維生素 E 和葉黃素，可促進皮膚和眼睛健康。",
+    img: "images/pistachioFamily.jpg",
+  },
+  {
+    id: "002",
+    name: "杏仁果 (600g)",
+    price: 560,
+    desc: "杏仁果（Almond）富含不飽和脂肪酸、蛋白質和纖維，能減少低密度脂蛋白（Low-Density Lipoprotein，簡稱 LDL，俗稱壞膽固醇），進而保護心臟健康",
+    img: "images/img-2.jpg",
+  },
+  {
+    id: "003",
+    name: "核桃 (600g)",
+    price: 680,
+    desc: "核桃（Walnuts）富含 α-次亞麻油酸，是 Omega-3 類的多元不飽和脂肪酸，能降低許多心臟病的危險因子，以及維持大腦健康和具有抗發炎的效果。",
+    img: "images/walnutFamily.jpg",
+  },
+  {
+    id: "004",
+    name: "腰果 (600g)",
+    price: 800,
+    desc: "它們富含銅，有助於鐵的吸收並促進骨骼和免疫系統的健康。腰果也提供鎂，對肌肉功能和神經健康很重要。",
+    img: "images/cashewFamily.jpg",
+  },
+  {
+    id: "005",
+    name: "開心果 (罐裝 400g)",
+    price: 550,
+    desc: "開心果還富含維生素 E 和葉黃素，可促進皮膚和眼睛健康。",
+    img: "images/pistachioCan.jpg",
+  },
+  {
+    id: "006",
+    name: "杏仁果 (罐裝 400g)",
+    price: 600,
+    desc: "杏仁果（Almond）富含不飽和脂肪酸、蛋白質和纖維，能減少低密度脂蛋白（Low-Density Lipoprotein，簡稱 LDL，俗稱壞膽固醇），進而保護心臟健康",
+    img: "images/img-6.jpg",
+  },
+  {
+    id: "007",
+    name: "核桃 (罐裝 400g)",
+    price: 600,
+    desc: "核桃（Walnuts）富含 α-次亞麻油酸，是 Omega-3 類的多元不飽和脂肪酸，能降低許多心臟病的危險因子，以及維持大腦健康和具有抗發炎的效果。",
+    img: "images/walnutCan.jpg",
+  },
+  {
+    id: "008",
+    name: "腰果 (罐裝 400g)",
+    price: 560,
+    desc: "它們富含銅，有助於鐵的吸收並促進骨骼和免疫系統的健康。腰果也提供鎂，對肌肉功能和神經健康很重要。",
+    img: "images/cashewCan.jpg",
+  },
+];
