@@ -1,57 +1,592 @@
+
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="canonical" href="https://www.mrbean.tw">
-  <link rel="icon" type="image/png" href="https://i.postimg.cc/Nf8M6szk/mrbean.jpg">
-  <meta name="keywords" content="T-shirt">
-  <title>荳荳先生 Payment Page</title>
-</head>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Mr.Bean Best Nuts in Town &mdash; 100% Free Fully Responsive HTML5 Template by FREEHTML5.co</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
+	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
+	<meta name="author" content="FREEHTML5.CO" />
+
+  <!-- 
+	//////////////////////////////////////////////////////
+
+	FREE HTML5 TEMPLATE 
+	DESIGNED & DEVELOPED by FREEHTML5.CO
+		
+	Website: 		http://freehtml5.co/
+	Email: 			info@freehtml5.co
+	Twitter: 		http://twitter.com/fh5co
+	Facebook: 		https://www.facebook.com/fh5co
+
+	//////////////////////////////////////////////////////
+	 -->
+
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic,700italic|Merriweather:300,400italic,300italic,400,700italic' rel='stylesheet' type='text/css'>
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+	<!-- Simple Line Icons -->
+	<link rel="stylesheet" href="css/simple-line-icons.css">
+	<!-- Datetimepicker -->
+	<link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css">
+	<!-- Flexslider -->
+	<link rel="stylesheet" href="css/flexslider.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+
+	<link rel="stylesheet" href="css/style.css">
+
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
 <body>
-  <div id="iframe-container"></div>
- <div id="store-info" style="display: none;">
-    <h2>Store Information</h2>
-    <p id="store-name"></p>
-    <p id="store-address"></p>
-    <p id="store-code"></p>
-  </div>
-  <script>
-    // Function to extract URL parameters
-    function getQueryParameter(param) {
-      const urlParams = new URLSearchParams(window.location.search);
-      return urlParams.get(param);
-    }
+<div id="fh5co-container">
+	<div id="fh5co-home" class="js-fullheight" data-section="home">
+            
+		<div class="flexslider">
+				
+			<div class="fh5co-overlay"></div>
+			<div class="fh5co-text">
+				<div class="container">
+					<div class="row">
+						<h1 class="to-animate" style="font-size: 11vw;margin: 20vh 0;">天然堅果 健康生活</h1>
+						<h2 class="to-animate">70度超低溫烘焙 <span>by</span> <a href="#" target="_blank">荳荳先生</a></h2>
+					</div>
+				</div>
+			</div>
+			  	<ul class="slides" style="z-index: 1000;">
+			   	<li style="background-image: url(images/banner1.jpg);" data-stellar-background-ratio="0.5"></li>
+			   	<li style="background-image: url(images/banner2.jpg);;" data-stellar-background-ratio="0.5"></li>
+			   	<li style="background-image: url(images/banner3.jpg);" data-stellar-background-ratio="0.5"></li>
+			  	</ul>
 
-    // Capture parameters from the URL
-    const orderId = getQueryParameter('MerchantTradeNo');
-    const storeName = getQueryParameter('CVSStoreName');
-    const storeAddress = getQueryParameter('CVSAddress');
-    const storeCode = getQueryParameter('CVSStoreID');
-    const extraData = getQueryParameter('ExtraData');
+			</div>
+		</div>
+		
+		<div class="js-sticky">
+			<div class="fh5co-main-nav">
+				<div class="container-fluid">
+					<div class="fh5co-menu-1">
+						<a href="#" data-nav-section="home">Home</a>
+						<a href="#" data-nav-section="about">關於..</a>
+						<a href="#" data-nav-section="productIntro">荳荳精選</a>
+					</div>
+					<div class="fh5co-logo">
+						<a href="index.html">荳荳先生</a>
+					</div>
+					<div class="fh5co-menu-2">
+						<a href="#" data-nav-section="purchase">購買</a>
+						<a href="#" data-nav-section="events">荳知道</a>
+						<a href="#" data-nav-section="contact">荳聯絡</a>
+						
+					</div>
+									
+    			</div>
+				
+			</div>
 
-    // Check if store info exists
-    if (storeName && storeAddress && storeCode) {
-      // Display store information on the page
-      document.getElementById('store-info').style.display = 'block';
-      document.getElementById('store-name').innerText = `Store Name: ${storeName}`;
-      document.getElementById('store-address').innerText = `Store Address: ${storeAddress}`;
-      document.getElementById('store-code').innerText = `Store Code: ${storeCode}`;
-    }
+		</div>
 
-    // Build the original WebApp URL
-    const webAppUrl = `https://script.google.com/macros/s/AKfycbxo2PQvT5_UghjtIz3q7MTUy2JRBQ0W-kPzAUk8ciqyUxUBH7kNeVrMzqfSlCB3vcqe/exec?ExtraData=${extraData}&MerchantTradeNo=${orderId}&CVSStoreName=${encodeURIComponent(storeName)}&CVSAddress=${encodeURIComponent(storeAddress)}&CVSStoreID=${storeCode}`;
-    
-    // Log the WebApp URL for debugging
-    console.log('Redirecting back to WebApp:', webAppUrl);
+		<div id="fh5co-about" data-section="about">
 
-    // Embed the WebApp in an iframe or redirect to the WebApp
-    if (orderId) {
-      const iframeContainer = document.getElementById('iframe-container');
-      iframeContainer.innerHTML = `<iframe src="${webAppUrl}" width="100%" height="600px" style="border:none;"></iframe>`;
-    } else {
-      console.error('Order ID is missing!');
-    }
-  </script>
-</body>
+			<div class="fh5co-2col fh5co-text">
+				<h2 class="heading to-animate">About 荳荳先生</h2>
+				<p class="to-animate"><span class="firstcharacter">荳荳先生</span>(廣緣堂)在2015年時初次製造超低溫養生堅果，從懵懵懂懂的摸索階段開始一步一腳印成長，不管是產地、產季、品牌特性、含水量、烘培溫度等等都毫不馬虎，他相信唯有如此才是品牌經營的長遠之道，因此他的每項商品皆經過嚴格的層層把關，讓消費者品嘗到的不只是美味還有滿滿的營養成分。堅果的製造過程經過多道工法，首先將堅果從負三度的冷凍庫中取出後直接放入烘豆機裡，這是為了防止堅果退冰後氧化的可能性，接著在烘豆機內以70度暖風淺培五到六小時，再拉高溫度進行殺菌的動作便大功告成了。短短幾個步驟就要花上十個鐘頭的時間，只為把最好的堅果呈現給顧客!</p>
+				<p class="text-center to-animate"><a href="#fh5co-footer" class="btn btn-primary btn-outline">Get in touch</a></p>
+			</div>
+		</div>
+
+		<div id="fh5co-sayings">
+			<div class="container">
+				<div class="row to-animate">
+
+					<div class="flexslider">
+						<ul class="slides" style="margin-bottom: 10px;">
+							
+							<li>
+								<blockquote>
+									<p>烤豆是一門藝術，但所有藝術都需要了解其技術和材料。</p>
+									<p>&ldquo;Cooking is an art, but all art requires knowing something about the techniques and materials&rdquo;</p>
+									<p class="quote-author">&mdash; Nathan Myhrvold</p>
+								</blockquote>
+							</li>
+							<li>
+								<blockquote>
+									<p>找到你熱愛的事物並保持極大的興趣。</p>
+									<p>&ldquo;Find something you’re passionate about and keep tremendously interested in it.&rdquo;</p>
+									<p class="quote-author">&mdash; Julia Child</p>
+								</blockquote>
+							</li>
+							<li>
+								<blockquote>
+									<p>早餐前切勿工作；如果您必須在早餐前工作，請先吃一些堅果。</p>
+									<p>&ldquo;Never work before breakfast; if you have to work before breakfast, eat your breakfast first.&rdquo;</p>
+									<p class="quote-author">&mdash; Josh Billings</p>
+								</blockquote>
+							</li>
+							<li>
+								<blockquote>
+									<p>天天吃堅果 健康活力就是我。</p>
+									<p>&ldquo;Eat nuts every day, stay young and energetic.&rdquo;</p>
+									<p class="quote-author">&mdash; 荳荳先生</p>
+								</blockquote>
+							</li>
+							
+							
+						</ul>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<div id="fh5co-featured" data-section="productIntro">
+			<div class="container">
+				<div class="row text-center fh5co-heading row-padded">
+					<div class="col-md-10 col-md-offset-1">
+						<h2 class="heading to-animate">精選堅果</h2>
+						<p class="sub-heading to-animate">荳荳先生的精品堅果是以70度的超低溫讓果實的毛細孔不受高溫影響產生收縮的現象，並且達到全面的受熱效果，水分也能順利排出，讓您可以享受堅果的獨特味道，回味無窮。</p>
+					</div>
+				</div>
+				<!--
+				<div class="row">
+					<div class="fh5co-grid">
+						<div class="fh5co-v-half to-animate-2">
+							<div class="fh5co-v-col-2 fh5co-bg-img" style="background-image: url(images/almond_power.jpg)"></div>
+							<div class="fh5co-v-col-2 fh5co-text fh5co-special-1 arrow-left">
+								<h2>關於杏仁果</h2>
+								<span class="pricing"></span>
+								<p style="margin: 40px 0 0 0">杏仁果（Almond）富含不飽和脂肪酸、蛋白質和纖維，能減少低密度脂蛋白（Low-Density Lipoprotein，簡稱 LDL，俗稱壞膽固醇），進而保護心臟健康，對於肥胖或過重的人，杏仁果搭配低卡飲食，也能有效降低他們的血壓，另外，患有第二型糖尿病的患者，攝取杏仁果有降低發炎的效果。</p>
+							</div>
+						</div>
+						<div class="fh5co-v-half">
+							<div class="fh5co-h-row-2 to-animate-2">
+								<div class="fh5co-v-col-2 fh5co-bg-img" style="background-image: url(images/cashewFull.png)"></div>
+								<div class="fh5co-v-col-2 fh5co-text arrow-left">
+									<h2>關於腰果</h2>
+									<span class="pricing"></span>
+									<p>在飲食中加入腰果可以改善心臟健康，因為它們富含健康脂肪和抗氧化劑。它們富含銅，有助於鐵的吸收並促進骨骼和免疫系統的健康。腰果也提供鎂，對肌肉功能和神經健康很重要。</p>
+								</div>
+							</div>
+							<div class="fh5co-h-row-2 fh5co-reversed to-animate-2">
+								<div class="fh5co-v-col-2 fh5co-bg-img" style="background-image: url(images/res_img_8.jpg)"></div>
+								<div class="fh5co-v-col-2 fh5co-text arrow-right">
+									<h2>關於松子</h2>
+								    <span class="pricing"></span>
+									<p>松子富含健康脂肪，特別是單元不飽和脂肪，有助於降低壞膽固醇水平並支持心臟健康。它們是維生素 E 和 K 的良好來源，可促進皮膚健康和骨骼強度。松子還含有鎂，有助於能量產生和肌肉功能，還是鐵的良好來源，有助於預防貧血。</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="fh5co-v-half">
+							<div class="fh5co-h-row-2 fh5co-reversed to-animate-2">
+								<div class="fh5co-v-col-2 fh5co-bg-img" style="background-image: url(images/res_img_7.jpg)"></div>
+								<div class="fh5co-v-col-2 fh5co-text arrow-right">
+									<h2>胡桃</h2>
+									<span class="pricing"></span>
+									<p>胡桃富含健康脂肪、纖維和抗氧化劑，有助於心臟健康並減少發炎。它們是維生素和礦物質（如維生素 E、鎂和鋅）的極好來源。經常食用可以改善消化，增強免疫功能，並支持健康的皮膚和頭髮。</p>
+								</div>
+							</div>
+							<div class="fh5co-h-row-2 to-animate-2">
+								<div class="fh5co-v-col-2 fh5co-bg-img" style="background-image: url(images/res_img_6.jpg)"></div>
+								<div class="fh5co-v-col-2 fh5co-text arrow-left">
+									<h2>開心果</h2>
+									<span class="pricing"></span>
+									<p>開心果是蛋白質、纖維和抗氧化劑的重要來源。它們透過降低壞膽固醇和改善血管功能來支持心臟健康。由於蛋白質和纖維含量高，經常食用有助於控制體重。開心果還富含維生素 E 和葉黃素，可促進皮膚和眼睛健康。</p>
+								</div>
+							</div>
+						</div>
+						<div class="fh5co-v-half to-animate-2">
+							<div class="fh5co-v-col-2 fh5co-bg-img" style="background-image: url(images/res_img_3.jpg)"></div>
+							<div class="fh5co-v-col-2 fh5co-text fh5co-special-1 arrow-left">
+								<h2>核桃</h2>
+								<span class="pricing"></span>
+								<p>核桃（Walnuts）富含 α-次亞麻油酸，是 Omega-3 類的多元不飽和脂肪酸，能降低許多心臟病的危險因子，以及維持大腦健康和具有抗發炎的效果。核桃的攝取也能抵抗攝護腺癌，另外有研究指出，天天吃胡桃的人，飲食相對更容易吃得健康。</p>
+							</div>
+						</div>
+
+					</div>
+				</div>-->
+		<div id="fh5co-type" style="background-image: url(images/slide_3.jpg); padding: 1em 0;" data-stellar-background-ratio="0.5">
+			<div class="fh5co-overlay"></div>
+			<div class="container">
+				<div class="row" style="margin-right: 10px;">
+					<div class="col-md-3 to-animate">
+						<div class="fh5co-type">
+							<h3 class="with-icon icon-1">開心果</h3>
+							<p>開心果是蛋白質、纖維和抗氧化劑的重要來源。它們透過降低壞膽固醇和改善血管功能來支持心臟健康。由於蛋白質和纖維含量高，經常食用有助於控制體重。開心果還富含維生素 E 和葉黃素，可促進皮膚和眼睛健康。	</p>
+						</div>
+					</div>
+					<div class="col-md-3 to-animate">
+						<div class="fh5co-type">
+							<h3 class="with-icon icon-2">杏仁果</h3>
+							<p>杏仁果（Almond）富含不飽和脂肪酸、蛋白質和纖維，能減少低密度脂蛋白（Low-Density Lipoprotein，簡稱 LDL，俗稱壞膽固醇），進而保護心臟健康，對於肥胖或過重的人，杏仁果搭配低卡飲食，也能有效降低他們的血壓，另外，患有第二型糖尿病的患者，攝取杏仁果有降低發炎的效果。</p>
+						</div>
+					</div>
+					<div class="col-md-3 to-animate">
+						<div class="fh5co-type">
+							<h3 class="with-icon icon-3">核桃</h3>
+							<p>核桃（Walnuts）富含 α-次亞麻油酸，是 Omega-3 類的多元不飽和脂肪酸，能降低許多心臟病的危險因子，以及維持大腦健康和具有抗發炎的效果。核桃的攝取也能抵抗攝護腺癌，另外有研究指出，天天吃胡桃的人，飲食相對更容易吃得健康。</p>
+						</div>
+					</div>
+					<div class="col-md-3 to-animate">
+						<div class="fh5co-type">
+							<h3 class="with-icon icon-4">腰果</h3>
+							<p>在飲食中加入腰果可以改善心臟健康，因為它們富含健康脂肪和抗氧化劑。它們富含銅，有助於鐵的吸收並促進骨骼和免疫系統的健康。腰果也提供鎂，對肌肉功能和神經健康很重要。</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+			</div>
+		</div>
+
+
+
+		<div id="fh5co-menus" data-section="purchase">
+			<div class="container">
+				<div class="row text-center fh5co-heading row-padded">
+					<div class="col-md-8 col-md-offset-2">
+						<h2 class="heading to-animate">荳荳精品</h2>
+						<p class="sub-heading to-animate">我們提供最適合您健康的堅果</p>
+					</div>
+				</div>
+
+				<div class="row row-padded shopItems"> <!-- Generated by shopItems.js -->
+<!--
+					<div class="col-md-6">
+						<div class="fh5co-food-menu to-animate-2">
+							<h2 class="fh5co-drinks">平裝</h2>
+							<ul>
+								<li>
+									<div class="fh5co-food-desc">
+										<figure>
+											<img src="images/res_img_5.jpg" class="img-responsive" alt="Free HTML5 Templates by FREEHTML5.co">
+										</figure>
+										<div>
+											<h3>開心果 (600g)</h3>
+											<p>開心果還富含維生素 E 和葉黃素，可促進皮膚和眼睛健康。</p>
+										</div>
+									</div>
+									<div class="fh5co-food-pricing">
+										$700
+									</div>
+								</li>
+								<li>
+									<div class="fh5co-food-desc">
+										<figure>
+											<img src="images/res_img_6.jpg" class="img-responsive" alt="Free HTML5 Templates by FREEHTML5.co">
+										</figure>
+										<div>
+											<h3>杏仁果 (600g)</h3>
+											<p>杏仁果（Almond）富含不飽和脂肪酸、蛋白質和纖維，能減少低密度脂蛋白（Low-Density Lipoprotein，簡稱 LDL，俗稱壞膽固醇），進而保護心臟健康</p>
+										</div>
+									</div>
+									<div class="fh5co-food-pricing">
+										$560
+									</div>
+								</li>
+								<li>
+									<div class="fh5co-food-desc">
+										<figure>
+											<img src="images/res_img_7.jpg" class="img-responsive" alt="Free HTML5 Templates by FREEHTML5.co">
+										</figure>
+										<div>
+											<h3>核桃</h3>
+											<p>核桃（Walnuts）富含 α-次亞麻油酸，是 Omega-3 類的多元不飽和脂肪酸，能降低許多心臟病的危險因子，以及維持大腦健康和具有抗發炎的效果。</p>
+										</div>
+									</div>
+									<div class="fh5co-food-pricing">
+										$680
+									</div>
+								</li>
+								<li>
+									<div class="fh5co-food-desc">
+										<figure>
+											<img src="images/cashew_budget.jpg" class="img-responsive" alt="Free HTML5 Templates by FREEHTML5.co">
+										</figure>
+										<div>
+											<h3>腰果</h3>
+											<p>它們富含銅，有助於鐵的吸收並促進骨骼和免疫系統的健康。腰果也提供鎂，對肌肉功能和神經健康很重要。</p>
+										</div>
+									</div>
+									<div class="fh5co-food-pricing">
+										$800
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="fh5co-food-menu to-animate-2">
+							<h2 class="fh5co-dishes">精裝</h2>
+							<ul>
+								<li>
+									<div class="fh5co-food-desc">
+										<figure>
+											<img src="images/res_img_3.jpg" class="img-responsive" alt="Free HTML5 Templates by FREEHTML5.co">
+										</figure>
+										<div>
+											<h3>開心果 (罐裝 400g)</h3>
+											<p>開心果還富含維生素 E 和葉黃素，可促進皮膚和眼睛健康。</p>
+										</div>
+									</div>
+									<div class="fh5co-food-pricing">
+										$550
+									</div>
+								</li>
+								<li>
+									<div class="fh5co-food-desc">
+										<figure>
+											<img src="images/res_img_4.jpg" class="img-responsive" alt="Free HTML5 Templates by FREEHTML5.co">
+										</figure>
+										<div>
+											<h3>杏仁果 (罐裝 400g)</h3>
+											<p>杏仁果（Almond）富含不飽和脂肪酸、蛋白質和纖維，能減少低密度脂蛋白（Low-Density Lipoprotein，簡稱 LDL，俗稱壞膽固醇），進而保護心臟健康</p>
+										</div>
+									</div>
+									<div class="fh5co-food-pricing">
+										$700
+									</div>
+								</li>
+								<li>
+									<div class="fh5co-food-desc">
+										<figure>
+											<img src="images/res_img_2.jpg" class="img-responsive" alt="Free HTML5 Templates by FREEHTML5.co">
+										</figure>
+										<div>
+											<h3>核桃 (罐裝 400g)</h3>
+											<p>核桃（Walnuts）富含 α-次亞麻油酸，是 Omega-3 類的多元不飽和脂肪酸，能降低許多心臟病的危險因子，以及維持大腦健康和具有抗發炎的效果。</p>
+										</div>
+									</div>
+									<div class="fh5co-food-pricing">
+										$560
+									</div>
+								</li>
+								<li>
+									<div class="fh5co-food-desc">
+										<figure>
+											<img src="images/res_img_8.jpg" class="img-responsive" alt="Free HTML5 Templates by FREEHTML5.co">
+										</figure>
+										<div>
+											<h3>腰果 (罐裝 400g)</h3>
+											<p>它們富含銅，有助於鐵的吸收並促進骨骼和免疫系統的健康。腰果也提供鎂，對肌肉功能和神經健康很重要。</p>
+										</div>
+									</div>
+									<div class="fh5co-food-pricing">
+										$560
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>  -->
+
+				</div>
+
+			</div>
+		</div>
+
+		<div id="fh5co-events" data-section="events" style="background-image: url(images/slide_2.jpg);" data-stellar-background-ratio="0.5">
+			<div class="fh5co-overlay"></div>
+			<div class="container">
+				<div class="row text-center fh5co-heading row-padded">
+					<div class="col-md-8 col-md-offset-2 to-animate">
+						<h2 class="heading">堅果小知識</h2>
+						
+					</div>
+				</div>
+				<ul class="accordion">
+	<li>
+		<a>市售堅果很多是油炸的</a>
+		<p style="color: white">您知道嗎，生堅果的含水量約為20%。許多市售的堅果實際上並不是烘烤的，而是經過油炸處理。使用真空油炸爐和脫油工藝，可以在極短時間內大量生產並行銷全球。因此，堅果會變得非常重，這是因為它們不僅含有20%的水分，還因吸收了花生油的重量。 <span class="showLabel">（檢查標籤上是否有食用油成分<img class="label-image" src="https://i.postimg.cc/Jzxbn3r6/1719821771600.jpg" alt="堅果標籤示例">）</span>！</p>
+
+							<p style="color: white">而荳荳先生 超低溫烘烤過程漫長，果實的毛細孔不受高溫影響產生收縮，也會導致更多的脫水;因此比油炸堅果更輕秤，但會保留更多的營養和風味。</p>
+	</li>
+	<li>
+		<a>堅果通常含有20%的水分</a>
+		<p style="color: white">只有長時間超低溫烘烤才能達到完全脫水，這也是荳荳先生的堅果味道特別好的原因之一;相對的，荳荳先生的堅果特別輕秤。<span style="font-size: 20px;">😊</span></p>	</li>
+	<li>
+		<a>不是所有低溫烘焙都一樣</a>
+		<p style="color: white">許多市售堅果會標榜低溫烘焙，但在業界中，120度就被認為是低溫烘焙。為了大量生產，必須提高溫度，但溫度越高，堅果表皮過熱會導致表面毛細孔收縮，水分無法排出。而荳荳先生的堅果會經過8小時的低溫烘烤，然後仔細觀察是否已烘乾，如果不足則繼續烘烤，直到水分完全蒸發，才會提高溫度進行殺菌。這個過程雖然漫長，但能保留更多風味和營養，這就是為什麼荳荳先生的堅果如此獨特的原因。</p>
+	</li>
+	<li><a>YouTube 短片介紹</a>
+		<p><iframe width="100%" height="315" src="https://www.youtube.com/embed/RFnaXKjRL14" frameborder="0" allowfullscreen></iframe></p>
+	</li>
+</ul>
+			</div>
+		</div>
+    <div id="fh5co-footer" data-section="contact">
+		<div class="container">
+			<div class="row row-padded">
+				<div class="col-md-12 text-center">
+					
+					<p class="text-center to-animate"><a href="#" class="js-gotop" style="color: #fbae14">回到頂部</a></p>
+				</div>
+				<div class="col-md-12 text-center to-animate" style="color: white">
+		
+          <h2>聯絡方式</h2>
+          <h6>台北市內湖區康寧路三段99巷10弄1號</h6>
+          <h6>Tel: 0925 528 072 &nbsp&nbspLine ID:0925-528072 </h6>
+        
+          <ul class="fh5co-social">
+						<li class="to-animate-2"><a href="https://www.facebook.com/profile.php?id=61554974302895" target="_blank" style="color:blue"><i class="fa-brands fa-facebook-f"></i></a></li>
+            
+						<li class="to-animate-2"><a href="https://line.me/ti/p/OJLeSl7uTY" target="_blank" rel="noopener noreferrer"><img src="https://i.postimg.cc/MKM00XpC/LINE-icon.png" style="width:25px;margin-bottom:4px;"></a></li>
+            <li class="to-animate-2">
+            <a href="https://www.youtube.com/@original-healthy-natural" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-youtube" aria-hidden="true" style="color: red; background: transparent;"></i>
+            </a>
+            </li>
+					</ul><br>
+         <div class="map-container">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28910.97422432179!2d121.57445490360259!3d25.07233468807045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442ad15c2d4fa73%3A0xb5e8eb06479181fe!2z6I2z6I2z5YWI55Sf57K-5ZOB5aCF5p6c!5e0!3m2!1szh-TW!2stw!4v1739780199511!5m2!1szh-TW!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+				</div>
+
+			</div>
+
+			<div class="row">
+				<div class="col-md-12 text-center">
+          <h5 style="color: #888">Designed by <a href="https://theislandedge.com/" style="text-decoration: none;">The EDGE</a></h5>
+				</div>
+			</div>
+		</div>
+	</div> <!--END of Footer-->
+
+
+				
+<div class="cart">
+  <i class="fa fa-shopping-cart"></i>
+  <div id="cartAmount" class="cartAmount">0</div>
+</div>
+<div class="cartTab">
+    <h2>&nbsp我的購物車</h2>
+    <div class="listCart">
+        <!-- Cart items go here -->
+    </div>
+    <div class="btn">
+        <button class="close"><i class="fa fa-window-close" aria-hidden="true"></i></button>
+        <button  onclick="toCheckout()" class="checkOut"><i class="fas fa-money-check-alt" aria-hidden="true"></i>&nbsp&nbsp付帳</button>
+    </div>
+</div>
+</div>
+
+	<!--
+    <div class="cart">
+      <i class="fa fa-shopping-cart"></i>
+      <div id="cartAmount" class="cartAmount">0</div>
+    </div>
+   
+    <div class="cartTab">
+        <h1>我的購物車</h1>
+        <div class="listCart">
+            
+        </div>
+        <div class="btn">
+            <button class="close"><i class="fa fa-window-close" aria-hidden="true"></i></button>
+            <button class="checkOut"><i class="fas fa-money-check-alt" aria-hidden="true"></i>  Checkout</button>
+        </div>
+    </div> -->
+	
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Bootstrap DateTimePicker -->
+	<script src="js/moment.js"></script>
+	<script src="js/bootstrap-datetimepicker.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Stellar Parallax -->
+	<script src="js/jquery.stellar.min.js"></script>
+
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	
+	<script>
+		$(function () {
+	       $('#date').datetimepicker();
+	   });
+	</script>
+	<!-- Main JS -->
+	<script src="js/main.js"></script>
+	<script src="data.js"></script>
+	<script src="shopItems.js"></script>
+    <script type="text/javascript">
+    	(function($) {
+    $('.accordion > li:eq(0) a').addClass('active').next().slideDown();
+
+    $('.accordion a').click(function(j) {
+        var dropDown = $(this).closest('li').find('p');
+
+        $(this).closest('.accordion').find('p').not(dropDown).slideUp();
+
+        if ($(this).hasClass('active')) {
+            $(this).removeClass('active');
+        } else {
+            $(this).closest('.accordion').find('a.active').removeClass('active');
+            $(this).addClass('active');
+        }
+
+        dropDown.stop(false, true).slideToggle();
+
+        j.preventDefault();
+    });
+})(jQuery);
+    </script>
+    <script type="text/javascript">/*
+ document.addEventListener('DOMContentLoaded', function () {
+  const homeSection = document.getElementById('fh5co-home');
+  const cart = document.querySelector('.cart');
+
+  // Create an observer with threshold 0: it will fire when even a single pixel is visible or not.
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        // If any part of #fh5co-home is visible, hide the cart.
+        cart.classList.add('hide-cart');
+      } else {
+        // Only when #fh5co-home is completely off the viewport, show the cart.
+        cart.classList.remove('hide-cart');
+      }
+    });
+  }, { threshold: 0 });
+
+  observer.observe(homeSection);
+});*/
+
+    </script>
+	</body>
 </html>
+
