@@ -11,7 +11,7 @@ let shopItemsData = [
     name: "杏仁果 (600g)",
     price: 560,
     desc: "杏仁果（Almond）富含不飽和脂肪酸、蛋白質和纖維，能減少低密度脂蛋白（Low-Density Lipoprotein，簡稱 LDL，俗稱壞膽固醇），進而保護心臟健康",
-    img: "images/img-2.jpg",
+    img: "images/almondFamily.jpg",
   },
   {
     id: "003",
@@ -39,7 +39,7 @@ let shopItemsData = [
     name: "杏仁果 (罐裝 400g)",
     price: 600,
     desc: "杏仁果（Almond）富含不飽和脂肪酸、蛋白質和纖維，能減少低密度脂蛋白（Low-Density Lipoprotein，簡稱 LDL，俗稱壞膽固醇），進而保護心臟健康",
-    img: "images/img-6.jpg",
+    img: "images/almondCanned.jpg",
   },
   {
     id: "007",
