@@ -1139,6 +1139,7 @@ p {
 #fh5co-events .fh5co-event .btn {
   margin-bottom: 0;
 }
+.accordion{padding: 2px}
 .accordion li a{color: orange; list-style-type: none; font-size: 3rem; padding: 2px 10px;background: rgba(10, 10, 10, 0.2);}
 #fh5co-contact {
   padding: 7em 0;
