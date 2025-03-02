@@ -276,10 +276,10 @@ p {
 @media (max-width: 768px) {
   #fh5co-home .flexslider .slides{margin-bottom: 50px;}
   #fh5co-home .flexslider .slides li:nth-child(1) {
-    background-image: url('../images/banner12_mobile.jpg') !important;
+    background-image: url('../images/banner1_mobile.webp') !important;
   }
   #fh5co-home .flexslider .slides li:nth-child(3) {
-    background-image: url('../images/banner3_mobile.jpg') !important;
+    background-image: url('../images/banner3_mobile.webp') !important;
   }
 }
 .fh5co-main-nav {
