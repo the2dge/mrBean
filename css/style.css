@@ -225,6 +225,11 @@ p {
     font-size: 100px;
   }
 }
+@media screen and (max-width: 400px) {
+  #fh5co-home .flexslider .fh5co-text h1 {
+    font-size: 8rem;
+  }
+}
 #fh5co-home .flexslider .fh5co-text h2 {
   margin: 0;
   padding: 0;
